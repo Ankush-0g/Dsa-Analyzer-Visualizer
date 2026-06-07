@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Main container responsive sizing */
+.dsa-container {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  background: #f8fafc;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px 12px;
+  color: #0f172a;
+}
+
+.dsa-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Responsive padding and font sizes */
+@media (min-width: 640px) {
+  .dsa-container {
+    padding: 28px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dsa-container {
+    padding: 32px 24px;
+  }
+}
+
+/* Ensure proper text rendering */
+h1 {
+  margin: 0;
+}
+
+/* Smooth transitions for interactive elements */
+button, input, textarea, select {
+  transition: all 0.15s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+/* Adjust visualization grid for different screen sizes */
+@media (max-width: 768px) {
+  .viz-grid-2col {
+    grid-template-columns: 1fr !important;
+  }
+}
