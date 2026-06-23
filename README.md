@@ -3,7 +3,7 @@
 A full-stack algorithm visualization app built with a React frontend and a Java Spring Boot backend.
 This project helps learners explore data structures and algorithms through interactive visualizations, execution traces, and step-by-step runtime state.
 
-#For better Experience use it on desktop mode
+For better Experience use it on desktop mode;
 URL : https://a-gpt.onrender.com
 ---
 
