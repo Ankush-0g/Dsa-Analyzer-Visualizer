@@ -10,7 +10,7 @@ URL : https://a-gpt.onrender.com
 ## 🔍 Project Overview
 
 This application visualizes algorithm execution in a user-friendly interface.
-The frontend provides controls for selecting algorithms, adjusting speed, and stepping through execution, while the backend computes algorithm traces, metadata, and explanations.
+The frontend provides controls for selecting algorithms, adjusting speed, and stepping through execution, while the backend computes algorithm traces, metadata, and explanations
 
 ### Key capabilities
 
